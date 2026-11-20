@@ -1,0 +1,8 @@
+{
+  "payload": "model EventEnvelope {\n  specversion: string = \"1.0\";\n  id: string;\n  type: string = \"ShoppingCart.CartItemAdded\";\n  source: string = \"/carts\";\n  data: EventData;\n}\n\nmodel EventData {\n  cartId: string;\n  item: CartItem;\n}\n\nmodel CartItem {\n  variantReference: string;\n  productTitle: string;\n  variantDescription?: string;\n  sku?: string;\n  unitPrice: int64;\n  quantity: int32;\n}",
+  "responseConfig": {
+    "enabled": false,
+    "statusCode": 200,
+    "body": "{}"
+  }
+}

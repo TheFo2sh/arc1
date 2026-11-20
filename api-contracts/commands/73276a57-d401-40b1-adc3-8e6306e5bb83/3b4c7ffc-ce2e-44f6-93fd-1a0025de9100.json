@@ -1,0 +1,8 @@
+{
+  "restConfig": {
+    "enabled": true,
+    "method": "GET",
+    "url": "/stock"
+  },
+  "payload": "model input {\n  variantReference?: string;\n  locationReference?: string;\n}\n\nmodel computed {}\n\nmodel output {\n  stocks: InventoryStock[];\n}\n\nmodel `context` {}\n\nmodel InventoryStock {\n  variantReference: string;\n  locationReference: string;\n  onHandQuantity: int32;\n  reservedQuantity: int32;\n  availableQuantity: int32;\n}"
+}

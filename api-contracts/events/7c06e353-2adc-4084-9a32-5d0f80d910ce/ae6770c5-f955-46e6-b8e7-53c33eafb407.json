@@ -1,0 +1,8 @@
+{
+  "payload": "model EventEnvelope {\n  specversion: string = \"1.0\";\n  id: string;\n  type: string = \"ShoppingCart.CartAbandoned\";\n  source: string = \"/carts\";\n  data: EventData;\n}\n\nmodel EventData {\n  cartId: string;\n}\n",
+  "responseConfig": {
+    "enabled": false,
+    "statusCode": 200,
+    "body": "{}"
+  }
+}

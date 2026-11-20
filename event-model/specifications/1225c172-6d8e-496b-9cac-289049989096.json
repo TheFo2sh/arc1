@@ -1,0 +1,589 @@
+{
+  "runId": "00afa0ea-3180-45b8-bbd5-6adf5e371fb1",
+  "generatedAt": "2026-11-20T07:33:48.598Z",
+  "storyFingerprint": "36b13f4cd6b7dbf0336bd5670dd3c09fefb910163b37a666b23b7daf0201b193",
+  "model": {
+    "nodes": [
+      {
+        "nodeId": "command:0a6d7b0f-4908-4318-b29b-72b8b52eac4e",
+        "kind": "command",
+        "name": "CreateCart",
+        "systemActorId": "83ba0e9b-1470-4766-9d78-b228fc9b78f4",
+        "domainLanguageId": "7c06e353-2adc-4084-9a32-5d0f80d910ce",
+        "itemId": "0a6d7b0f-4908-4318-b29b-72b8b52eac4e",
+        "activityNumbers": []
+      },
+      {
+        "nodeId": "event:4fcf7280-8a9c-4e17-bf1c-c5304aa58aaa",
+        "kind": "event",
+        "name": "CartCreated",
+        "systemActorId": "83ba0e9b-1470-4766-9d78-b228fc9b78f4",
+        "domainLanguageId": "7c06e353-2adc-4084-9a32-5d0f80d910ce",
+        "itemId": "4fcf7280-8a9c-4e17-bf1c-c5304aa58aaa",
+        "activityNumbers": []
+      },
+      {
+        "nodeId": "command:c70add8c-051f-4ff0-8d54-9f54e55b153b",
+        "kind": "command",
+        "name": "AddCartItem",
+        "systemActorId": "83ba0e9b-1470-4766-9d78-b228fc9b78f4",
+        "domainLanguageId": "7c06e353-2adc-4084-9a32-5d0f80d910ce",
+        "itemId": "c70add8c-051f-4ff0-8d54-9f54e55b153b",
+        "activityNumbers": []
+      },
+      {
+        "nodeId": "event:9dac36f2-c561-4c76-9b1f-450b837b68dd",
+        "kind": "event",
+        "name": "CartItemAdded",
+        "systemActorId": "83ba0e9b-1470-4766-9d78-b228fc9b78f4",
+        "domainLanguageId": "7c06e353-2adc-4084-9a32-5d0f80d910ce",
+        "itemId": "9dac36f2-c561-4c76-9b1f-450b837b68dd",
+        "activityNumbers": []
+      },
+      {
+        "nodeId": "command:51a18650-4d06-4c10-be53-a1945a2082cf",
+        "kind": "command",
+        "name": "ReserveStock",
+        "systemActorId": "99a2cdbb-6c1b-4cf0-ae2f-3d6f0ac774b5",
+        "domainLanguageId": "73276a57-d401-40b1-adc3-8e6306e5bb83",
+        "itemId": "51a18650-4d06-4c10-be53-a1945a2082cf",
+        "activityNumbers": []
+      },
+      {
+        "nodeId": "event:fcdbe63d-2966-4617-80f4-b75897c32ac5",
+        "kind": "event",
+        "name": "StockReserved",
+        "systemActorId": "99a2cdbb-6c1b-4cf0-ae2f-3d6f0ac774b5",
+        "domainLanguageId": "73276a57-d401-40b1-adc3-8e6306e5bb83",
+        "itemId": "fcdbe63d-2966-4617-80f4-b75897c32ac5",
+        "activityNumbers": []
+      },
+      {
+        "nodeId": "command:4a8473f6-2da0-42ab-99ed-2dafc66119a7",
+        "kind": "command",
+        "name": "ChangeCartItemQuantity",
+        "systemActorId": "83ba0e9b-1470-4766-9d78-b228fc9b78f4",
+        "domainLanguageId": "7c06e353-2adc-4084-9a32-5d0f80d910ce",
+        "itemId": "4a8473f6-2da0-42ab-99ed-2dafc66119a7",
+        "activityNumbers": []
+      },
+      {
+        "nodeId": "event:7a6d129b-3510-454d-ace6-92a5e54f80cd",
+        "kind": "event",
+        "name": "CartItemQuantityChanged",
+        "systemActorId": "83ba0e9b-1470-4766-9d78-b228fc9b78f4",
+        "domainLanguageId": "7c06e353-2adc-4084-9a32-5d0f80d910ce",
+        "itemId": "7a6d129b-3510-454d-ace6-92a5e54f80cd",
+        "activityNumbers": []
+      },
+      {
+        "nodeId": "command:412dd18e-ea05-4abf-8ba8-0afb288d8c3e",
+        "kind": "command",
+        "name": "RemoveCartItem",
+        "systemActorId": "83ba0e9b-1470-4766-9d78-b228fc9b78f4",
+        "domainLanguageId": "7c06e353-2adc-4084-9a32-5d0f80d910ce",
+        "itemId": "412dd18e-ea05-4abf-8ba8-0afb288d8c3e",
+        "activityNumbers": []
+      },
+      {
+        "nodeId": "event:0f75d116-9acc-4bc9-8176-7f7fb7eabb17",
+        "kind": "event",
+        "name": "CartItemRemoved",
+        "systemActorId": "83ba0e9b-1470-4766-9d78-b228fc9b78f4",
+        "domainLanguageId": "7c06e353-2adc-4084-9a32-5d0f80d910ce",
+        "itemId": "0f75d116-9acc-4bc9-8176-7f7fb7eabb17",
+        "activityNumbers": []
+      },
+      {
+        "nodeId": "command:56cb61a2-5fcf-40a5-9cfd-c0f5cb4df24d",
+        "kind": "command",
+        "name": "AbandonCart",
+        "systemActorId": "83ba0e9b-1470-4766-9d78-b228fc9b78f4",
+        "domainLanguageId": "7c06e353-2adc-4084-9a32-5d0f80d910ce",
+        "itemId": "56cb61a2-5fcf-40a5-9cfd-c0f5cb4df24d",
+        "activityNumbers": []
+      },
+      {
+        "nodeId": "event:ae6770c5-f955-46e6-b8e7-53c33eafb407",
+        "kind": "event",
+        "name": "CartAbandoned",
+        "systemActorId": "83ba0e9b-1470-4766-9d78-b228fc9b78f4",
+        "domainLanguageId": "7c06e353-2adc-4084-9a32-5d0f80d910ce",
+        "itemId": "ae6770c5-f955-46e6-b8e7-53c33eafb407",
+        "activityNumbers": []
+      },
+      {
+        "nodeId": "command:93d9093e-6b77-4427-8791-b8ca8ebb2526",
+        "kind": "command",
+        "name": "ReleaseStockReservation",
+        "systemActorId": "99a2cdbb-6c1b-4cf0-ae2f-3d6f0ac774b5",
+        "domainLanguageId": "73276a57-d401-40b1-adc3-8e6306e5bb83",
+        "itemId": "93d9093e-6b77-4427-8791-b8ca8ebb2526",
+        "activityNumbers": []
+      },
+      {
+        "nodeId": "event:d8a4bebb-ea68-433e-a5b7-5f9cde27c97c",
+        "kind": "event",
+        "name": "StockReservationReleased",
+        "systemActorId": "99a2cdbb-6c1b-4cf0-ae2f-3d6f0ac774b5",
+        "domainLanguageId": "73276a57-d401-40b1-adc3-8e6306e5bb83",
+        "itemId": "d8a4bebb-ea68-433e-a5b7-5f9cde27c97c",
+        "activityNumbers": []
+      },
+      {
+        "nodeId": "command:62f9e8a8-ac8f-46a8-b85f-878aa47e6f56",
+        "kind": "command",
+        "name": "ListPublishedProducts",
+        "systemActorId": "600ced7f-3b42-48e0-a455-a4d1f594355f",
+        "domainLanguageId": "7581b490-6ba6-405e-8c34-12748f15f130",
+        "itemId": "62f9e8a8-ac8f-46a8-b85f-878aa47e6f56",
+        "activityNumbers": [],
+        "isReadModel": true
+      },
+      {
+        "nodeId": "event:28b8c2af-d1f5-446a-833e-f9ceef98e2ce",
+        "kind": "event",
+        "name": "ProductPublished",
+        "systemActorId": "600ced7f-3b42-48e0-a455-a4d1f594355f",
+        "domainLanguageId": "7581b490-6ba6-405e-8c34-12748f15f130",
+        "itemId": "28b8c2af-d1f5-446a-833e-f9ceef98e2ce",
+        "activityNumbers": []
+      },
+      {
+        "nodeId": "event:2ccb7b86-1f5c-44bc-8986-0ac84a51e2fe",
+        "kind": "event",
+        "name": "ProductUpdated",
+        "systemActorId": "600ced7f-3b42-48e0-a455-a4d1f594355f",
+        "domainLanguageId": "7581b490-6ba6-405e-8c34-12748f15f130",
+        "itemId": "2ccb7b86-1f5c-44bc-8986-0ac84a51e2fe",
+        "activityNumbers": []
+      },
+      {
+        "nodeId": "event:71778b74-0088-4d78-ad05-bdccc7547a94",
+        "kind": "event",
+        "name": "ProductArchived",
+        "systemActorId": "600ced7f-3b42-48e0-a455-a4d1f594355f",
+        "domainLanguageId": "7581b490-6ba6-405e-8c34-12748f15f130",
+        "itemId": "71778b74-0088-4d78-ad05-bdccc7547a94",
+        "activityNumbers": []
+      },
+      {
+        "nodeId": "command:2ff1fd2c-718b-472a-892d-d6adc5b178e7",
+        "kind": "command",
+        "name": "ViewCart",
+        "systemActorId": "83ba0e9b-1470-4766-9d78-b228fc9b78f4",
+        "domainLanguageId": "7c06e353-2adc-4084-9a32-5d0f80d910ce",
+        "itemId": "2ff1fd2c-718b-472a-892d-d6adc5b178e7",
+        "activityNumbers": [],
+        "isReadModel": true
+      },
+      {
+        "nodeId": "command:84a86e15-0b99-4892-b62f-1aa2648a7703",
+        "kind": "command",
+        "name": "ListIdleCarts",
+        "systemActorId": "83ba0e9b-1470-4766-9d78-b228fc9b78f4",
+        "domainLanguageId": "7c06e353-2adc-4084-9a32-5d0f80d910ce",
+        "itemId": "84a86e15-0b99-4892-b62f-1aa2648a7703",
+        "activityNumbers": [],
+        "isReadModel": true
+      },
+      {
+        "nodeId": "trigger:0",
+        "kind": "trigger",
+        "triggerType": "frontend",
+        "name": "Published product listing",
+        "systemActorId": "600ced7f-3b42-48e0-a455-a4d1f594355f",
+        "activityNumbers": [
+          1
+        ]
+      },
+      {
+        "nodeId": "trigger:1",
+        "kind": "trigger",
+        "triggerType": "frontend",
+        "name": "Shopping cart",
+        "systemActorId": "83ba0e9b-1470-4766-9d78-b228fc9b78f4",
+        "activityNumbers": [
+          2
+        ]
+      },
+      {
+        "nodeId": "trigger:2",
+        "kind": "trigger",
+        "triggerType": "frontend",
+        "name": "Add item",
+        "systemActorId": "83ba0e9b-1470-4766-9d78-b228fc9b78f4",
+        "activityNumbers": [
+          3
+        ]
+      },
+      {
+        "nodeId": "policy:eb1ea04a-49c7-442b-a017-0e8fe23390b7",
+        "kind": "policy",
+        "name": "Reserve stock for cart items",
+        "systemActorId": "99a2cdbb-6c1b-4cf0-ae2f-3d6f0ac774b5",
+        "domainLanguageId": "73276a57-d401-40b1-adc3-8e6306e5bb83",
+        "itemId": "eb1ea04a-49c7-442b-a017-0e8fe23390b7",
+        "activityNumbers": []
+      },
+      {
+        "nodeId": "trigger:4",
+        "kind": "trigger",
+        "triggerType": "frontend",
+        "name": "Change item quantity",
+        "systemActorId": "83ba0e9b-1470-4766-9d78-b228fc9b78f4",
+        "activityNumbers": [
+          5
+        ]
+      },
+      {
+        "nodeId": "trigger:5",
+        "kind": "trigger",
+        "triggerType": "frontend",
+        "name": "Remove item",
+        "systemActorId": "83ba0e9b-1470-4766-9d78-b228fc9b78f4",
+        "activityNumbers": [
+          6
+        ]
+      },
+      {
+        "nodeId": "trigger:6",
+        "kind": "trigger",
+        "triggerType": "time",
+        "name": "Idle cart sweep",
+        "systemActorId": "83ba0e9b-1470-4766-9d78-b228fc9b78f4",
+        "domainLanguageId": "7c06e353-2adc-4084-9a32-5d0f80d910ce",
+        "itemId": "4c8d406f-ad44-422e-89a7-4332ff6c4c64",
+        "activityNumbers": []
+      },
+      {
+        "nodeId": "policy:b87ad351-2d5e-4d8b-b52e-2a026aec9cf4",
+        "kind": "policy",
+        "name": "Release stock for abandoned carts",
+        "systemActorId": "99a2cdbb-6c1b-4cf0-ae2f-3d6f0ac774b5",
+        "domainLanguageId": "73276a57-d401-40b1-adc3-8e6306e5bb83",
+        "itemId": "b87ad351-2d5e-4d8b-b52e-2a026aec9cf4",
+        "activityNumbers": []
+      },
+      {
+        "nodeId": "trigger:8",
+        "kind": "trigger",
+        "triggerType": "frontend",
+        "name": "Cart view",
+        "systemActorId": "83ba0e9b-1470-4766-9d78-b228fc9b78f4",
+        "activityNumbers": [
+          9
+        ]
+      }
+    ],
+    "connections": [
+      {
+        "from": "event:28b8c2af-d1f5-446a-833e-f9ceef98e2ce",
+        "to": "command:62f9e8a8-ac8f-46a8-b85f-878aa47e6f56"
+      },
+      {
+        "from": "event:2ccb7b86-1f5c-44bc-8986-0ac84a51e2fe",
+        "to": "command:62f9e8a8-ac8f-46a8-b85f-878aa47e6f56"
+      },
+      {
+        "from": "event:71778b74-0088-4d78-ad05-bdccc7547a94",
+        "to": "command:62f9e8a8-ac8f-46a8-b85f-878aa47e6f56"
+      },
+      {
+        "from": "event:4fcf7280-8a9c-4e17-bf1c-c5304aa58aaa",
+        "to": "command:2ff1fd2c-718b-472a-892d-d6adc5b178e7"
+      },
+      {
+        "from": "event:9dac36f2-c561-4c76-9b1f-450b837b68dd",
+        "to": "command:2ff1fd2c-718b-472a-892d-d6adc5b178e7"
+      },
+      {
+        "from": "event:7a6d129b-3510-454d-ace6-92a5e54f80cd",
+        "to": "command:2ff1fd2c-718b-472a-892d-d6adc5b178e7"
+      },
+      {
+        "from": "event:0f75d116-9acc-4bc9-8176-7f7fb7eabb17",
+        "to": "command:2ff1fd2c-718b-472a-892d-d6adc5b178e7"
+      },
+      {
+        "from": "event:ae6770c5-f955-46e6-b8e7-53c33eafb407",
+        "to": "command:2ff1fd2c-718b-472a-892d-d6adc5b178e7"
+      },
+      {
+        "from": "event:4fcf7280-8a9c-4e17-bf1c-c5304aa58aaa",
+        "to": "command:84a86e15-0b99-4892-b62f-1aa2648a7703"
+      },
+      {
+        "from": "event:9dac36f2-c561-4c76-9b1f-450b837b68dd",
+        "to": "command:84a86e15-0b99-4892-b62f-1aa2648a7703"
+      },
+      {
+        "from": "event:7a6d129b-3510-454d-ace6-92a5e54f80cd",
+        "to": "command:84a86e15-0b99-4892-b62f-1aa2648a7703"
+      },
+      {
+        "from": "event:0f75d116-9acc-4bc9-8176-7f7fb7eabb17",
+        "to": "command:84a86e15-0b99-4892-b62f-1aa2648a7703"
+      },
+      {
+        "from": "event:ae6770c5-f955-46e6-b8e7-53c33eafb407",
+        "to": "command:84a86e15-0b99-4892-b62f-1aa2648a7703"
+      },
+      {
+        "from": "trigger:0",
+        "to": "command:62f9e8a8-ac8f-46a8-b85f-878aa47e6f56"
+      },
+      {
+        "from": "command:0a6d7b0f-4908-4318-b29b-72b8b52eac4e",
+        "to": "event:4fcf7280-8a9c-4e17-bf1c-c5304aa58aaa"
+      },
+      {
+        "from": "trigger:1",
+        "to": "command:0a6d7b0f-4908-4318-b29b-72b8b52eac4e"
+      },
+      {
+        "from": "command:c70add8c-051f-4ff0-8d54-9f54e55b153b",
+        "to": "event:9dac36f2-c561-4c76-9b1f-450b837b68dd"
+      },
+      {
+        "from": "trigger:2",
+        "to": "command:c70add8c-051f-4ff0-8d54-9f54e55b153b"
+      },
+      {
+        "from": "command:51a18650-4d06-4c10-be53-a1945a2082cf",
+        "to": "event:fcdbe63d-2966-4617-80f4-b75897c32ac5"
+      },
+      {
+        "from": "event:9dac36f2-c561-4c76-9b1f-450b837b68dd",
+        "to": "policy:eb1ea04a-49c7-442b-a017-0e8fe23390b7"
+      },
+      {
+        "from": "policy:eb1ea04a-49c7-442b-a017-0e8fe23390b7",
+        "to": "command:51a18650-4d06-4c10-be53-a1945a2082cf"
+      },
+      {
+        "from": "command:4a8473f6-2da0-42ab-99ed-2dafc66119a7",
+        "to": "event:7a6d129b-3510-454d-ace6-92a5e54f80cd"
+      },
+      {
+        "from": "trigger:4",
+        "to": "command:4a8473f6-2da0-42ab-99ed-2dafc66119a7"
+      },
+      {
+        "from": "command:412dd18e-ea05-4abf-8ba8-0afb288d8c3e",
+        "to": "event:0f75d116-9acc-4bc9-8176-7f7fb7eabb17"
+      },
+      {
+        "from": "trigger:5",
+        "to": "command:412dd18e-ea05-4abf-8ba8-0afb288d8c3e"
+      },
+      {
+        "from": "command:56cb61a2-5fcf-40a5-9cfd-c0f5cb4df24d",
+        "to": "event:ae6770c5-f955-46e6-b8e7-53c33eafb407"
+      },
+      {
+        "from": "trigger:6",
+        "to": "command:56cb61a2-5fcf-40a5-9cfd-c0f5cb4df24d"
+      },
+      {
+        "from": "trigger:6",
+        "to": "command:84a86e15-0b99-4892-b62f-1aa2648a7703"
+      },
+      {
+        "from": "command:93d9093e-6b77-4427-8791-b8ca8ebb2526",
+        "to": "event:d8a4bebb-ea68-433e-a5b7-5f9cde27c97c"
+      },
+      {
+        "from": "event:ae6770c5-f955-46e6-b8e7-53c33eafb407",
+        "to": "policy:b87ad351-2d5e-4d8b-b52e-2a026aec9cf4"
+      },
+      {
+        "from": "policy:b87ad351-2d5e-4d8b-b52e-2a026aec9cf4",
+        "to": "command:93d9093e-6b77-4427-8791-b8ca8ebb2526"
+      },
+      {
+        "from": "trigger:8",
+        "to": "command:2ff1fd2c-718b-472a-892d-d6adc5b178e7"
+      }
+    ],
+    "slices": [
+      {
+        "id": "SLICE-01",
+        "pattern": "stateView",
+        "context": "Catalog",
+        "nodeIds": [
+          "trigger:0",
+          "command:62f9e8a8-ac8f-46a8-b85f-878aa47e6f56"
+        ],
+        "given": [
+          "ProductPublished happened",
+          "ProductUpdated happened",
+          "ProductArchived happened"
+        ],
+        "when": "Shopper uses Published product listing",
+        "then": [
+          "ListPublishedProducts answers"
+        ],
+        "rejections": []
+      },
+      {
+        "id": "SLICE-02",
+        "pattern": "stateChange",
+        "context": "ShoppingCart",
+        "nodeIds": [
+          "trigger:1",
+          "command:0a6d7b0f-4908-4318-b29b-72b8b52eac4e",
+          "event:4fcf7280-8a9c-4e17-bf1c-c5304aa58aaa"
+        ],
+        "given": [],
+        "when": "Shopper uses Shopping cart to issue CreateCart",
+        "then": [
+          "CartCreated is recorded"
+        ],
+        "rejections": []
+      },
+      {
+        "id": "SLICE-03",
+        "pattern": "stateChange",
+        "context": "ShoppingCart",
+        "nodeIds": [
+          "trigger:2",
+          "command:c70add8c-051f-4ff0-8d54-9f54e55b153b",
+          "event:9dac36f2-c561-4c76-9b1f-450b837b68dd"
+        ],
+        "given": [],
+        "when": "Shopper uses Add item to issue AddCartItem",
+        "then": [
+          "CartItemAdded is recorded"
+        ],
+        "rejections": []
+      },
+      {
+        "id": "SLICE-04",
+        "pattern": "automation",
+        "context": "Inventory",
+        "nodeIds": [
+          "policy:eb1ea04a-49c7-442b-a017-0e8fe23390b7",
+          "command:51a18650-4d06-4c10-be53-a1945a2082cf",
+          "event:fcdbe63d-2966-4617-80f4-b75897c32ac5"
+        ],
+        "given": [
+          "CartItemAdded happened"
+        ],
+        "when": "Reserve stock for cart items reacts by issuing ReserveStock",
+        "then": [
+          "StockReserved is recorded"
+        ],
+        "rejections": []
+      },
+      {
+        "id": "SLICE-05",
+        "pattern": "stateChange",
+        "context": "ShoppingCart",
+        "nodeIds": [
+          "trigger:4",
+          "command:4a8473f6-2da0-42ab-99ed-2dafc66119a7",
+          "event:7a6d129b-3510-454d-ace6-92a5e54f80cd"
+        ],
+        "given": [],
+        "when": "Shopper uses Change item quantity to issue ChangeCartItemQuantity",
+        "then": [
+          "CartItemQuantityChanged is recorded"
+        ],
+        "rejections": []
+      },
+      {
+        "id": "SLICE-06",
+        "pattern": "stateChange",
+        "context": "ShoppingCart",
+        "nodeIds": [
+          "trigger:5",
+          "command:412dd18e-ea05-4abf-8ba8-0afb288d8c3e",
+          "event:0f75d116-9acc-4bc9-8176-7f7fb7eabb17"
+        ],
+        "given": [],
+        "when": "Shopper uses Remove item to issue RemoveCartItem",
+        "then": [
+          "CartItemRemoved is recorded"
+        ],
+        "rejections": []
+      },
+      {
+        "id": "SLICE-07",
+        "pattern": "stateChange",
+        "context": "ShoppingCart",
+        "nodeIds": [
+          "trigger:6",
+          "command:56cb61a2-5fcf-40a5-9cfd-c0f5cb4df24d",
+          "event:ae6770c5-f955-46e6-b8e7-53c33eafb407"
+        ],
+        "given": [],
+        "when": "Idle cart sweep fires (0 * * * *) and issues AbandonCart",
+        "then": [
+          "CartAbandoned is recorded"
+        ],
+        "rejections": []
+      },
+      {
+        "id": "SLICE-08",
+        "pattern": "automation",
+        "context": "Inventory",
+        "nodeIds": [
+          "policy:b87ad351-2d5e-4d8b-b52e-2a026aec9cf4",
+          "command:93d9093e-6b77-4427-8791-b8ca8ebb2526",
+          "event:d8a4bebb-ea68-433e-a5b7-5f9cde27c97c"
+        ],
+        "given": [
+          "CartAbandoned happened"
+        ],
+        "when": "Release stock for abandoned carts reacts by issuing ReleaseStockReservation",
+        "then": [
+          "StockReservationReleased is recorded"
+        ],
+        "rejections": []
+      },
+      {
+        "id": "SLICE-09",
+        "pattern": "stateView",
+        "context": "ShoppingCart",
+        "nodeIds": [
+          "trigger:8",
+          "command:2ff1fd2c-718b-472a-892d-d6adc5b178e7"
+        ],
+        "given": [
+          "CartCreated happened",
+          "CartItemAdded happened",
+          "CartItemQuantityChanged happened",
+          "CartItemRemoved happened",
+          "CartAbandoned happened"
+        ],
+        "when": "Shopper uses Cart view",
+        "then": [
+          "ViewCart answers"
+        ],
+        "rejections": []
+      },
+      {
+        "id": "SLICE-10",
+        "pattern": "stateView",
+        "context": "ShoppingCart",
+        "nodeIds": [
+          "command:84a86e15-0b99-4892-b62f-1aa2648a7703"
+        ],
+        "given": [
+          "CartCreated happened",
+          "CartItemAdded happened",
+          "CartItemQuantityChanged happened",
+          "CartItemRemoved happened",
+          "CartAbandoned happened"
+        ],
+        "when": "ListIdleCarts is asked",
+        "then": [
+          "ListIdleCarts answers"
+        ],
+        "rejections": []
+      }
+    ],
+    "assumptions": []
+  }
+}

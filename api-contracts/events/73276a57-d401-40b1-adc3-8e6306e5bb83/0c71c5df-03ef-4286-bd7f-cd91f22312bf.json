@@ -1,0 +1,8 @@
+{
+  "payload": "model EventEnvelope {\n  specversion: string = \"1.0\";\n  id: string;\n  type: string = \"Inventory.StockAdjusted\";\n  source: string = \"/inventory\";\n  data: EventData;\n}\n\nmodel EventData {\n  stock: InventoryStock;\n  quantityChange: int32;\n  reason: InventoryAdjustmentReason;\n}\n\nmodel InventoryStock {\n  variantReference: string;\n  locationReference: string;\n  onHandQuantity: int32;\n  reservedQuantity: int32;\n  availableQuantity: int32;\n}\n\nenum InventoryAdjustmentReason {\n  Received: \"received\",\n  Damaged: \"damaged\",\n  Correction: \"correction\",\n  Other: \"other\",\n}",
+  "responseConfig": {
+    "enabled": false,
+    "statusCode": 200,
+    "body": "{}"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "restConfig": {
+    "enabled": true,
+    "method": "POST",
+    "url": "/stock/{variantReference}/adjust"
+  },
+  "payload": "model input {\n  variantReference: string;\n  locationReference: string;\n  quantityChange: int32;\n  reason: InventoryAdjustmentReason;\n}\n\nmodel computed {}\n\nmodel output {\n  stock: InventoryStock;\n}\n\nmodel `context` {}\n\nenum InventoryAdjustmentReason {\n  Received: \"received\",\n  Damaged: \"damaged\",\n  Correction: \"correction\",\n  Other: \"other\",\n}\n\nmodel InventoryStock {\n  variantReference: string;\n  locationReference: string;\n  onHandQuantity: int32;\n  reservedQuantity: int32;\n  availableQuantity: int32;\n}"
+}

@@ -1,0 +1,8 @@
+{
+  "restConfig": {
+    "enabled": true,
+    "method": "POST",
+    "url": "/stock/{variantReference}/receive"
+  },
+  "payload": "model input {\n  variantReference: string;\n  locationReference: string;\n  quantity: int32;\n}\n\nmodel computed {}\n\nmodel output {\n  stock: InventoryStock;\n}\n\nmodel `context` {}\n\nmodel InventoryStock {\n  variantReference: string;\n  locationReference: string;\n  onHandQuantity: int32;\n  reservedQuantity: int32;\n  availableQuantity: int32;\n}"
+}

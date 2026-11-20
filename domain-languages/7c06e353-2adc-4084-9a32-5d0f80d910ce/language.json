@@ -1,0 +1,184 @@
+{
+  "name": "ShoppingCart",
+  "description": "Managing a shopper\u0027s selected items before checkout.",
+  "creationTime": "2026-11-20T07:33:48.042508Z",
+  "lastModifiedTime": "2026-11-20T07:33:48.471371Z",
+  "projectId": "c8e4599f-f508-455c-8bf2-2248b4d6884d",
+  "workObjects": [
+    {
+      "name": "ShoppingCart",
+      "description": "",
+      "iconUrl": "/iconify/mdi/cart-outline.svg",
+      "isDeprecated": false,
+      "id": "24667bd8-6315-4b4a-952f-da962a59924c",
+      "attachments": null
+    },
+    {
+      "name": "CartItem",
+      "description": "",
+      "iconUrl": "/iconify/mdi/cart-plus.svg",
+      "isDeprecated": false,
+      "id": "0f1f1171-d1d7-442b-9fad-8094415d99a2",
+      "attachments": null
+    }
+  ],
+  "actors": [
+    {
+      "name": "Shopper",
+      "description": "",
+      "actorType": 0,
+      "iconUrl": "/iconify/mdi/account-outline.svg",
+      "isDeprecated": false,
+      "id": "88ddb6bd-8ce2-4877-bd31-ce2033d471a7",
+      "attachments": null,
+      "technology": null
+    },
+    {
+      "name": "CartService",
+      "description": "",
+      "actorType": 1,
+      "iconUrl": "/iconify/mdi/cart-check.svg",
+      "isDeprecated": false,
+      "id": "83ba0e9b-1470-4766-9d78-b228fc9b78f4",
+      "attachments": null,
+      "technology": null
+    }
+  ],
+  "commands": [
+    {
+      "name": "CreateCart",
+      "description": "",
+      "iconUrl": "/iconify/mdi/cart-plus.svg",
+      "workObjectId": null,
+      "isReadModel": false,
+      "isDeprecated": false,
+      "id": "0a6d7b0f-4908-4318-b29b-72b8b52eac4e",
+      "attachments": null
+    },
+    {
+      "name": "AddCartItem",
+      "description": "",
+      "iconUrl": "/iconify/mdi-cart-arrow-down.svg",
+      "workObjectId": null,
+      "isReadModel": false,
+      "isDeprecated": false,
+      "id": "c70add8c-051f-4ff0-8d54-9f54e55b153b",
+      "attachments": null
+    },
+    {
+      "name": "ChangeCartItemQuantity",
+      "description": "",
+      "iconUrl": "/iconify/mdi-cart-edit.svg",
+      "workObjectId": null,
+      "isReadModel": false,
+      "isDeprecated": false,
+      "id": "4a8473f6-2da0-42ab-99ed-2dafc66119a7",
+      "attachments": null
+    },
+    {
+      "name": "RemoveCartItem",
+      "description": "",
+      "iconUrl": "/iconify/mdi-cart-remove.svg",
+      "workObjectId": null,
+      "isReadModel": false,
+      "isDeprecated": false,
+      "id": "412dd18e-ea05-4abf-8ba8-0afb288d8c3e",
+      "attachments": null
+    },
+    {
+      "name": "AbandonCart",
+      "description": "",
+      "iconUrl": "/iconify/mdi-cart-off.svg",
+      "workObjectId": null,
+      "isReadModel": false,
+      "isDeprecated": false,
+      "id": "56cb61a2-5fcf-40a5-9cfd-c0f5cb4df24d",
+      "attachments": null
+    },
+    {
+      "name": "ViewCart",
+      "description": "",
+      "iconUrl": "/iconify/mdi/cart-outline.svg",
+      "workObjectId": null,
+      "isReadModel": true,
+      "isDeprecated": false,
+      "id": "2ff1fd2c-718b-472a-892d-d6adc5b178e7",
+      "attachments": null
+    },
+    {
+      "name": "ListIdleCarts",
+      "description": "",
+      "iconUrl": "/iconify/mdi/cart-clock.svg",
+      "workObjectId": null,
+      "isReadModel": true,
+      "isDeprecated": false,
+      "id": "84a86e15-0b99-4892-b62f-1aa2648a7703",
+      "attachments": null
+    }
+  ],
+  "events": [
+    {
+      "name": "CartCreated",
+      "description": "",
+      "iconUrl": "/iconify/mdi/cart-plus.svg",
+      "isDeprecated": false,
+      "id": "4fcf7280-8a9c-4e17-bf1c-c5304aa58aaa",
+      "attachments": null
+    },
+    {
+      "name": "CartItemAdded",
+      "description": "",
+      "iconUrl": "/iconify/mdi/cart-arrow-down.svg",
+      "isDeprecated": false,
+      "id": "9dac36f2-c561-4c76-9b1f-450b837b68dd",
+      "attachments": null
+    },
+    {
+      "name": "CartItemQuantityChanged",
+      "description": "",
+      "iconUrl": "/iconify/mdi/cart-edit.svg",
+      "isDeprecated": false,
+      "id": "7a6d129b-3510-454d-ace6-92a5e54f80cd",
+      "attachments": null
+    },
+    {
+      "name": "CartItemRemoved",
+      "description": "",
+      "iconUrl": "/iconify/mdi/cart-remove.svg",
+      "isDeprecated": false,
+      "id": "0f75d116-9acc-4bc9-8176-7f7fb7eabb17",
+      "attachments": null
+    },
+    {
+      "name": "CartAbandoned",
+      "description": "",
+      "iconUrl": "/iconify/mdi/cart-off.svg",
+      "isDeprecated": false,
+      "id": "ae6770c5-f955-46e6-b8e7-53c33eafb407",
+      "attachments": null
+    }
+  ],
+  "policies": [],
+  "triggers": [
+    {
+      "name": "TimeTrigger",
+      "description": "Fires on a schedule.",
+      "iconUrl": "/iconify/mdi/clock-outline.svg",
+      "id": "4c8d406f-ad44-422e-89a7-4332ff6c4c64",
+      "attachments": null
+    }
+  ],
+  "datastores": [],
+  "color": "#FF9800",
+  "attachmentsContainer": "dl-attachments-b1364458-670c-4a33-9225-952dec5a6e98",
+  "iconUrl": "/iconify/mdi/cart-outline.svg",
+  "template": {
+    "repositoryUri": "https://github.com/TheFo2sh/OpenBusinessSpec",
+    "path": "DomainLanguages/ShoppingCart",
+    "templateId": "ShoppingCart",
+    "version": "0.0.3",
+    "commitSha": "f512b0bf73a8a623682a1460e0fb5d1f2dc48138",
+    "importedAt": "2026-11-20T07:33:48.005Z",
+    "packageId": "M1Spec.DomainLanguages.ShoppingCart"
+  }
+}

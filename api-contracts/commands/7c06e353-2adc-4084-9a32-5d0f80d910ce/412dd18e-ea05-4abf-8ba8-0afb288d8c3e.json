@@ -1,0 +1,8 @@
+{
+  "restConfig": {
+    "enabled": true,
+    "method": "DELETE",
+    "url": "/carts/items"
+  },
+  "payload": "model input {\n  cartId: string;\n  variantReference: string;\n}\n\nmodel computed {}\n\nmodel output {\n  cart: ShoppingCart;\n}\n\nmodel `context` {}\n\nmodel ShoppingCart {\n  items: CartItem[];\n  currency: string;\n  subtotal: int64;\n  status: CartStatus;\n  customerReference?: string;\n  expiresAt?: utcDateTime;\n}\n\nmodel CartItem {\n  variantReference: string;\n  productTitle: string;\n  variantDescription?: string;\n  sku?: string;\n  unitPrice: int64;\n  quantity: int32;\n}\n\nenum CartStatus {\n  Active: \"active\",\n  Converted: \"converted\",\n  Abandoned: \"abandoned\",\n}"
+}

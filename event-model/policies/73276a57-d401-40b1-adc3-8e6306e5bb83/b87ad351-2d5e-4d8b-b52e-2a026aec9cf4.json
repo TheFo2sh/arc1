@@ -1,0 +1,12 @@
+{
+  "rules": {
+    "ae6770c5-f955-46e6-b8e7-53c33eafb407": [
+      {
+        "id": "72e0b4c2-cd16-43e1-85b1-74492c8089c6",
+        "condition": null,
+        "outputCommandItemId": "93d9093e-6b77-4427-8791-b8ca8ebb2526",
+        "description": ""
+      }
+    ]
+  }
+}

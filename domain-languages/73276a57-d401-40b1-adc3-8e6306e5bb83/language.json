@@ -1,0 +1,181 @@
+{
+  "name": "Inventory",
+  "description": "Tracking stock by product variant and location, including reservations.",
+  "creationTime": "2026-11-20T07:33:48.3811Z",
+  "lastModifiedTime": "2026-11-20T07:33:48.488393Z",
+  "projectId": "c8e4599f-f508-455c-8bf2-2248b4d6884d",
+  "workObjects": [
+    {
+      "name": "InventoryStock",
+      "description": "",
+      "iconUrl": "/iconify/mdi/package-variant.svg",
+      "isDeprecated": false,
+      "id": "a4406fb5-9aee-49d1-a3c4-d9bd8d10e987",
+      "attachments": null
+    },
+    {
+      "name": "StockReservation",
+      "description": "",
+      "iconUrl": "/iconify/mdi/package-variant-closed-check.svg",
+      "isDeprecated": false,
+      "id": "48d7d33b-189d-4856-ae63-de6df67a1fc8",
+      "attachments": null
+    }
+  ],
+  "actors": [
+    {
+      "name": "InventoryManager",
+      "description": "",
+      "actorType": 0,
+      "iconUrl": "/iconify/mdi/account-hard-hat-outline.svg",
+      "isDeprecated": false,
+      "id": "1cbef8a4-4b1f-466a-91d0-821fda64926a",
+      "attachments": null,
+      "technology": null
+    },
+    {
+      "name": "InventoryService",
+      "description": "",
+      "actorType": 1,
+      "iconUrl": "/iconify/mdi/warehouse.svg",
+      "isDeprecated": false,
+      "id": "99a2cdbb-6c1b-4cf0-ae2f-3d6f0ac774b5",
+      "attachments": null,
+      "technology": null
+    }
+  ],
+  "commands": [
+    {
+      "name": "ReceiveStock",
+      "description": "",
+      "iconUrl": "/iconify/mdi/package-variant-plus.svg",
+      "workObjectId": null,
+      "isReadModel": false,
+      "isDeprecated": false,
+      "id": "a06e94fa-d0cb-45b3-ab04-da958135e7bc",
+      "attachments": null
+    },
+    {
+      "name": "AdjustStock",
+      "description": "",
+      "iconUrl": "/iconify/mdi/package-variant-edit.svg",
+      "workObjectId": null,
+      "isReadModel": false,
+      "isDeprecated": false,
+      "id": "c40b4bf6-fb50-4e4b-9d2d-b50564e776bc",
+      "attachments": null
+    },
+    {
+      "name": "ReserveStock",
+      "description": "",
+      "iconUrl": "/iconify/mdi/package-variant-closed-check.svg",
+      "workObjectId": null,
+      "isReadModel": false,
+      "isDeprecated": false,
+      "id": "51a18650-4d06-4c10-be53-a1945a2082cf",
+      "attachments": null
+    },
+    {
+      "name": "ReleaseStockReservation",
+      "description": "",
+      "iconUrl": "/iconify/mdi/package-variant-remove.svg",
+      "workObjectId": null,
+      "isReadModel": false,
+      "isDeprecated": false,
+      "id": "93d9093e-6b77-4427-8791-b8ca8ebb2526",
+      "attachments": null
+    },
+    {
+      "name": "ViewStockLevels",
+      "description": "",
+      "iconUrl": "/iconify/mdi/package-variant.svg",
+      "workObjectId": null,
+      "isReadModel": true,
+      "isDeprecated": false,
+      "id": "3b4c7ffc-ce2e-44f6-93fd-1a0025de9100",
+      "attachments": null
+    },
+    {
+      "name": "ConsumeStockReservation",
+      "description": "",
+      "iconUrl": "/iconify/mdi/package-variant-closed-check.svg",
+      "workObjectId": null,
+      "isReadModel": false,
+      "isDeprecated": false,
+      "id": "4581b216-93ec-498b-a2e1-2f5cf7705425",
+      "attachments": null
+    }
+  ],
+  "events": [
+    {
+      "name": "StockReceived",
+      "description": "",
+      "iconUrl": "/iconify/mdi/package-variant-plus.svg",
+      "isDeprecated": false,
+      "id": "f3618800-f351-4487-a15e-36a3abe03fe0",
+      "attachments": null
+    },
+    {
+      "name": "StockAdjusted",
+      "description": "",
+      "iconUrl": "/iconify/mdi/package-variant-edit.svg",
+      "isDeprecated": false,
+      "id": "0c71c5df-03ef-4286-bd7f-cd91f22312bf",
+      "attachments": null
+    },
+    {
+      "name": "StockReserved",
+      "description": "",
+      "iconUrl": "/iconify/mdi/package-variant-closed-check.svg",
+      "isDeprecated": false,
+      "id": "fcdbe63d-2966-4617-80f4-b75897c32ac5",
+      "attachments": null
+    },
+    {
+      "name": "StockReservationReleased",
+      "description": "",
+      "iconUrl": "/iconify/mdi/package-variant-remove.svg",
+      "isDeprecated": false,
+      "id": "d8a4bebb-ea68-433e-a5b7-5f9cde27c97c",
+      "attachments": null
+    },
+    {
+      "name": "StockReservationConsumed",
+      "description": "",
+      "iconUrl": "/iconify/mdi/package-check.svg",
+      "isDeprecated": false,
+      "id": "f4f0f9a7-3bc4-4fdd-8b1f-fe91c3adaa00",
+      "attachments": null
+    }
+  ],
+  "policies": [
+    {
+      "name": "Reserve stock for cart items",
+      "description": "",
+      "iconUrl": "/iconify/mdi/gavel.svg",
+      "id": "eb1ea04a-49c7-442b-a017-0e8fe23390b7",
+      "attachments": null
+    },
+    {
+      "name": "Release stock for abandoned carts",
+      "description": "",
+      "iconUrl": "/iconify/mdi/gavel.svg",
+      "id": "b87ad351-2d5e-4d8b-b52e-2a026aec9cf4",
+      "attachments": null
+    }
+  ],
+  "triggers": [],
+  "datastores": [],
+  "color": "#795548",
+  "attachmentsContainer": "dl-attachments-f837bc65-6fed-4ff7-a038-71f940f28a22",
+  "iconUrl": "/iconify/mdi/warehouse.svg",
+  "template": {
+    "repositoryUri": "https://github.com/TheFo2sh/OpenBusinessSpec",
+    "path": "DomainLanguages/Inventory",
+    "templateId": "Inventory",
+    "version": "0.0.4",
+    "commitSha": "f512b0bf73a8a623682a1460e0fb5d1f2dc48138",
+    "importedAt": "2026-11-20T07:33:48.372Z",
+    "packageId": "M1Spec.DomainLanguages.Inventory"
+  }
+}

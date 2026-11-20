@@ -1,0 +1,45 @@
+{
+  "systemActorId": "99a2cdbb-6c1b-4cf0-ae2f-3d6f0ac774b5",
+  "domainStories": [
+    {
+      "domainStoryId": "1225c172-6d8e-496b-9cac-289049989096",
+      "commands": [
+        {
+          "domainLanguageId": "73276a57-d401-40b1-adc3-8e6306e5bb83",
+          "commandId": "51a18650-4d06-4c10-be53-a1945a2082cf",
+          "commandName": "ReserveStock"
+        },
+        {
+          "domainLanguageId": "73276a57-d401-40b1-adc3-8e6306e5bb83",
+          "commandId": "93d9093e-6b77-4427-8791-b8ca8ebb2526",
+          "commandName": "ReleaseStockReservation"
+        }
+      ],
+      "policies": [
+        {
+          "domainLanguageId": "73276a57-d401-40b1-adc3-8e6306e5bb83",
+          "policyId": "eb1ea04a-49c7-442b-a017-0e8fe23390b7",
+          "policyName": "Reserve stock for cart items"
+        },
+        {
+          "domainLanguageId": "73276a57-d401-40b1-adc3-8e6306e5bb83",
+          "policyId": "b87ad351-2d5e-4d8b-b52e-2a026aec9cf4",
+          "policyName": "Release stock for abandoned carts"
+        }
+      ],
+      "events": [
+        {
+          "domainLanguageId": "73276a57-d401-40b1-adc3-8e6306e5bb83",
+          "eventId": "fcdbe63d-2966-4617-80f4-b75897c32ac5",
+          "eventName": "StockReserved"
+        },
+        {
+          "domainLanguageId": "73276a57-d401-40b1-adc3-8e6306e5bb83",
+          "eventId": "d8a4bebb-ea68-433e-a5b7-5f9cde27c97c",
+          "eventName": "StockReservationReleased"
+        }
+      ]
+    }
+  ],
+  "endpoints": []
+}

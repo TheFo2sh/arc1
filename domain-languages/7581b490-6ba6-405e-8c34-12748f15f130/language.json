@@ -1,0 +1,164 @@
+{
+  "name": "Catalog",
+  "description": "Managing products, variants, and the product information offered for sale.",
+  "creationTime": "2026-11-20T07:33:48.21816Z",
+  "lastModifiedTime": "2026-11-20T07:33:48.21816Z",
+  "projectId": "c8e4599f-f508-455c-8bf2-2248b4d6884d",
+  "workObjects": [
+    {
+      "name": "Product",
+      "description": "",
+      "iconUrl": "/iconify/mdi/tag-outline.svg",
+      "isDeprecated": false,
+      "id": "01adf4ad-bc5b-42ea-a69f-9375b91fa1bb",
+      "attachments": null
+    },
+    {
+      "name": "ProductVariant",
+      "description": "",
+      "iconUrl": "/iconify/mdi/tag-multiple-outline.svg",
+      "isDeprecated": false,
+      "id": "00a75255-daeb-4e1b-a26f-cfb7afc5763b",
+      "attachments": null
+    },
+    {
+      "name": "ProductPrice",
+      "description": "",
+      "iconUrl": "/iconify/mdi/cash-multiple.svg",
+      "isDeprecated": false,
+      "id": "65c785bf-8ea9-4c2d-848d-7083904c1152",
+      "attachments": null
+    },
+    {
+      "name": "VariantOption",
+      "description": "",
+      "iconUrl": "/iconify/mdi/format-list-bulleted-type.svg",
+      "isDeprecated": false,
+      "id": "4ba7e7c1-290c-48b1-a416-235026a93ca5",
+      "attachments": null
+    }
+  ],
+  "actors": [
+    {
+      "name": "ProductEditor",
+      "description": "",
+      "actorType": 0,
+      "iconUrl": "/iconify/mdi/account-edit-outline.svg",
+      "isDeprecated": false,
+      "id": "b6dd7c7f-8ad3-451b-91a6-b04982d3d7ee",
+      "attachments": null,
+      "technology": null
+    },
+    {
+      "name": "CatalogService",
+      "description": "",
+      "actorType": 1,
+      "iconUrl": "/iconify/mdi/database-cog-outline.svg",
+      "isDeprecated": false,
+      "id": "600ced7f-3b42-48e0-a455-a4d1f594355f",
+      "attachments": null,
+      "technology": null
+    }
+  ],
+  "commands": [
+    {
+      "name": "CreateProduct",
+      "description": "",
+      "iconUrl": "/iconify/mdi/tag-plus-outline.svg",
+      "workObjectId": null,
+      "isReadModel": false,
+      "isDeprecated": false,
+      "id": "2476e517-7ab1-4885-954d-b547841cce5e",
+      "attachments": null
+    },
+    {
+      "name": "UpdateProduct",
+      "description": "",
+      "iconUrl": "/iconify/mdi/tag-edit-outline.svg",
+      "workObjectId": null,
+      "isReadModel": false,
+      "isDeprecated": false,
+      "id": "a23f1eae-5c65-4fe1-906a-5a721e598d47",
+      "attachments": null
+    },
+    {
+      "name": "PublishProduct",
+      "description": "",
+      "iconUrl": "/iconify/mdi/eye-check-outline.svg",
+      "workObjectId": null,
+      "isReadModel": false,
+      "isDeprecated": false,
+      "id": "af904420-9195-4ab2-9cda-a55e1d22ec8c",
+      "attachments": null
+    },
+    {
+      "name": "ArchiveProduct",
+      "description": "",
+      "iconUrl": "/iconify/mdi/archive-outline.svg",
+      "workObjectId": null,
+      "isReadModel": false,
+      "isDeprecated": false,
+      "id": "2793eee1-d4e9-4158-842c-9c2c69a7f1a2",
+      "attachments": null
+    },
+    {
+      "name": "ListPublishedProducts",
+      "description": "",
+      "iconUrl": "/iconify/mdi/tag-multiple-outline.svg",
+      "workObjectId": null,
+      "isReadModel": true,
+      "isDeprecated": false,
+      "id": "62f9e8a8-ac8f-46a8-b85f-878aa47e6f56",
+      "attachments": null
+    }
+  ],
+  "events": [
+    {
+      "name": "ProductCreated",
+      "description": "",
+      "iconUrl": "/iconify/mdi/tag-plus-outline.svg",
+      "isDeprecated": false,
+      "id": "afa4ad34-7187-453b-a1b5-082fb3ef9f8a",
+      "attachments": null
+    },
+    {
+      "name": "ProductUpdated",
+      "description": "",
+      "iconUrl": "/iconify/mdi/tag-edit-outline.svg",
+      "isDeprecated": false,
+      "id": "2ccb7b86-1f5c-44bc-8986-0ac84a51e2fe",
+      "attachments": null
+    },
+    {
+      "name": "ProductPublished",
+      "description": "",
+      "iconUrl": "/iconify/mdi/eye-check-outline.svg",
+      "isDeprecated": false,
+      "id": "28b8c2af-d1f5-446a-833e-f9ceef98e2ce",
+      "attachments": null
+    },
+    {
+      "name": "ProductArchived",
+      "description": "",
+      "iconUrl": "/iconify/mdi/archive-outline.svg",
+      "isDeprecated": false,
+      "id": "71778b74-0088-4d78-ad05-bdccc7547a94",
+      "attachments": null
+    }
+  ],
+  "policies": [],
+  "triggers": [],
+  "datastores": [],
+  "color": "#4CAF50",
+  "attachmentsContainer": "dl-attachments-4305fa53-2759-4437-832f-f4393d7f2e6a",
+  "iconUrl": "/iconify/mdi/tag-multiple-outline.svg",
+  "template": {
+    "repositoryUri": "https://github.com/TheFo2sh/OpenBusinessSpec",
+    "path": "DomainLanguages/Catalog",
+    "templateId": "Catalog",
+    "version": "0.0.3",
+    "commitSha": "f512b0bf73a8a623682a1460e0fb5d1f2dc48138",
+    "importedAt": "2026-11-20T07:33:48.208Z",
+    "packageId": "M1Spec.DomainLanguages.Catalog"
+  }
+}

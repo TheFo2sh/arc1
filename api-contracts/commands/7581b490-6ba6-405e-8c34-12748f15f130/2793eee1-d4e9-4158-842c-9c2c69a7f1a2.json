@@ -1,0 +1,8 @@
+{
+  "restConfig": {
+    "enabled": false,
+    "method": "POST",
+    "url": ""
+  },
+  "payload": "model input {\n  productId: string;\n}\n\nmodel computed {}\n\nmodel output {\n  product: Product;\n}\n\nmodel `context` {}\n\nmodel Product {\n  title: string;\n  description?: string;\n  category?: string;\n  tags: string[];\n  status: ProductStatus;\n  variants: ProductVariant[];\n}\n\nenum ProductStatus {\n  Draft: \"draft\",\n  Active: \"active\",\n  Archived: \"archived\",\n}\n\nmodel ProductVariant {\n  sku?: string;\n  optionValues: VariantOption[];\n  price: ProductPrice;\n  status: ProductVariantStatus;\n}\n\nmodel VariantOption {\n  name: string;\n  value: string;\n}\n\nmodel ProductPrice {\n  amount: int64;\n  currency: string;\n}\n\nenum ProductVariantStatus {\n  Active: \"active\",\n  Inactive: \"inactive\",\n}"
+}

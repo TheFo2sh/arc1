@@ -1,0 +1,8 @@
+{
+  "payload": "model EventEnvelope {\n  specversion: string = \"1.0\";\n  id: string;\n  type: string = \"Inventory.StockReserved\";\n  source: string = \"/inventory/reservations\";\n  data: EventData;\n}\n\nmodel EventData {\n  reservation: StockReservation;\n}\n\nmodel StockReservation {\n  variantReference: string;\n  locationReference: string;\n  reference: string;\n  quantity: int32;\n  status: ReservationStatus;\n  expiresAt?: utcDateTime;\n}\n\nenum ReservationStatus {\n  Active: \"active\",\n  Released: \"released\",\n  Expired: \"expired\",\n  Consumed: \"consumed\",\n}",
+  "responseConfig": {
+    "enabled": false,
+    "statusCode": 200,
+    "body": "{}"
+  }
+}
