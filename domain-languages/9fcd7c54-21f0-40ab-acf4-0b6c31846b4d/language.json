@@ -1,0 +1,223 @@
+{
+  "name": "Default Test Language",
+  "description": "",
+  "creationTime": "2026-11-20T07:33:32.359735Z",
+  "lastModifiedTime": "2026-11-20T07:33:32.455511Z",
+  "projectId": "c8e4599f-f508-455c-8bf2-2248b4d6884d",
+  "workObjects": [
+    {
+      "name": "Product",
+      "description": "A physical or digital item that can be bought, sold, or managed within the system",
+      "iconUrl": "/iconify/mdi/package-variant.svg",
+      "isDeprecated": false,
+      "id": "8b4f1eb6-829d-486e-bcc2-ca8374660143",
+      "attachments": null
+    },
+    {
+      "name": "Order",
+      "description": "A formal request to purchase one or more products, tracked through its lifecycle",
+      "iconUrl": "/iconify/mdi/clipboard-list.svg",
+      "isDeprecated": false,
+      "id": "6a195b90-5069-41d5-902a-64e82e6443e4",
+      "attachments": null
+    },
+    {
+      "name": "Invoice",
+      "description": "A financial document issued to a customer detailing amounts owed for products or services",
+      "iconUrl": "/iconify/mdi/file-document.svg",
+      "isDeprecated": false,
+      "id": "4c76c7e4-beb8-477a-93dd-219e210e3790",
+      "attachments": null
+    },
+    {
+      "name": "Payment",
+      "description": "A monetary transaction that settles all or part of an outstanding invoice",
+      "iconUrl": "/iconify/mdi/credit-card.svg",
+      "isDeprecated": false,
+      "id": "046a6dbd-0d60-48a3-b943-652fbd132487",
+      "attachments": null
+    },
+    {
+      "name": "Inventory",
+      "description": "The current stock levels and location of all products held by the organisation",
+      "iconUrl": "/iconify/mdi/warehouse.svg",
+      "isDeprecated": false,
+      "id": "a0c517e1-0bfa-4435-9d8b-4f3e09119b29",
+      "attachments": null
+    }
+  ],
+  "actors": [
+    {
+      "name": "Customer",
+      "description": "End user who browses, orders, and tracks purchases through the system",
+      "actorType": 0,
+      "iconUrl": "/iconify/mdi/account.svg",
+      "isDeprecated": false,
+      "id": "fc1f6388-3137-449d-9821-477e62ffdce1",
+      "attachments": null,
+      "technology": null
+    },
+    {
+      "name": "Administrator",
+      "description": "Internal user with elevated privileges to manage configuration and override business rules",
+      "actorType": 0,
+      "iconUrl": "/iconify/mdi/shield-account.svg",
+      "isDeprecated": false,
+      "id": "a58ec6e1-bae5-4e99-9e7a-be035bc178a2",
+      "attachments": null,
+      "technology": null
+    },
+    {
+      "name": "System",
+      "description": "Automated process that executes scheduled tasks and reacts to domain events without human input",
+      "actorType": 1,
+      "iconUrl": "/iconify/mdi/cog.svg",
+      "isDeprecated": false,
+      "id": "e3b80157-7c55-4a5d-85ce-66d22e6dd785",
+      "attachments": null,
+      "technology": null
+    },
+    {
+      "name": "Dynamics System",
+      "description": "Microsoft Dynamics CRM system that manages customer data and processes business transactions",
+      "actorType": 1,
+      "iconUrl": "/iconify/streamline-logos/microsoft-dynamics-logo-solid.svg",
+      "isDeprecated": false,
+      "id": "c53621ab-3992-444d-b7ee-38cd2def50b8",
+      "attachments": null,
+      "technology": null
+    },
+    {
+      "name": "Mobile app",
+      "description": "A mobile application that allows customers to browse products, place orders, and track deliveries from their smartphones",
+      "actorType": 1,
+      "iconUrl": "/iconify/carbon/application-mobile.svg",
+      "isDeprecated": false,
+      "id": "79046ada-4300-4d80-a64d-e90fa4769cd0",
+      "attachments": null,
+      "technology": null
+    },
+    {
+      "name": "Support Agent",
+      "description": "Internal staff member who assists customers and resolves issues on their behalf",
+      "actorType": 0,
+      "iconUrl": "/iconify/mdi/headset.svg",
+      "isDeprecated": false,
+      "id": "0492def0-658b-4d3c-8a43-526d55179c5d",
+      "attachments": null,
+      "technology": null
+    },
+    {
+      "name": "Manager",
+      "description": "Business stakeholder who reviews reports, approves exceptions, and sets operational policies",
+      "actorType": 0,
+      "iconUrl": "/iconify/mdi/account-tie.svg",
+      "isDeprecated": false,
+      "id": "c95ed8b8-7e58-4a7f-ad0f-5eb2f1de3500",
+      "attachments": null,
+      "technology": null
+    }
+  ],
+  "commands": [],
+  "events": [
+    {
+      "name": "Order Placed",
+      "description": "A new order has been successfully submitted and is awaiting fulfilment",
+      "iconUrl": "/iconify/mdi/cart-check.svg",
+      "isDeprecated": false,
+      "id": "cbf8e977-7d98-4cb6-9f04-cf1811c35585",
+      "attachments": null
+    },
+    {
+      "name": "Order Cancelled",
+      "description": "An existing order has been voided and no further processing will occur",
+      "iconUrl": "/iconify/mdi/cart-remove.svg",
+      "isDeprecated": false,
+      "id": "1423f49e-f772-4df7-8816-3c6ef8149b1c",
+      "attachments": null
+    },
+    {
+      "name": "Payment Processed",
+      "description": "A financial transaction has been completed and funds have been captured",
+      "iconUrl": "/iconify/mdi/cash.svg",
+      "isDeprecated": false,
+      "id": "c0c5a9b4-f3ba-4816-88e3-af5558bc9433",
+      "attachments": null
+    },
+    {
+      "name": "Stock Updated",
+      "description": "Inventory levels for one or more products have changed",
+      "iconUrl": "/iconify/mdi/package-variant-closed-check.svg",
+      "isDeprecated": false,
+      "id": "87ba49f6-459f-450b-9562-71f140f4150f",
+      "attachments": null
+    },
+    {
+      "name": "Account Registered",
+      "description": "A new customer account has been created and is ready for use",
+      "iconUrl": "/iconify/mdi/account-check.svg",
+      "isDeprecated": false,
+      "id": "bcfa044d-8218-4656-8dd0-246af49b0e66",
+      "attachments": null
+    },
+    {
+      "name": "Request Approved",
+      "description": "A pending action requiring authorisation has been granted and will now proceed",
+      "iconUrl": "/iconify/mdi/check-decagram.svg",
+      "isDeprecated": false,
+      "id": "34a74059-ca22-4bf2-8e4e-506acb6cccaf",
+      "attachments": null
+    },
+    {
+      "name": "Refund Issued",
+      "description": "Funds have been returned to the customer and the associated payment has been marked as refunded",
+      "iconUrl": "/iconify/mdi/cash-minus.svg",
+      "isDeprecated": false,
+      "id": "0b6b000b-ca9e-4e2c-a71e-a4b22d17584a",
+      "attachments": null
+    }
+  ],
+  "policies": [
+    {
+      "name": "Order Validation Policy",
+      "description": "An order may only be confirmed when all requested products are in stock and payment authorisation succeeds",
+      "iconUrl": "/iconify/mdi/shield-check.svg",
+      "id": "49fd20b2-58fe-48d5-98ae-b0fc1387bde4",
+      "attachments": null
+    },
+    {
+      "name": "Payment Authorization Policy",
+      "description": "Payments above a configurable threshold require a secondary verification step before capture",
+      "iconUrl": "/iconify/mdi/lock-check.svg",
+      "id": "ffa77bcf-a9f6-43f2-9ff9-9afdec5a307c",
+      "attachments": null
+    },
+    {
+      "name": "Low Stock Alert Policy",
+      "description": "When inventory for any product falls below its reorder threshold, a replenishment command is automatically triggered",
+      "iconUrl": "/iconify/mdi/alert-circle.svg",
+      "id": "f218b6d5-0759-4acf-a2a1-8550445e699c",
+      "attachments": null
+    },
+    {
+      "name": "Refund Eligibility Policy",
+      "description": "Refunds may only be issued within 30 days of the original payment and only for orders that have been fully delivered",
+      "iconUrl": "/iconify/mdi/cash-refund.svg",
+      "id": "322fb3dd-9577-4e77-93f9-e40c4d53fe2e",
+      "attachments": null
+    },
+    {
+      "name": "Discount Application Policy",
+      "description": "Promotional discounts are applied automatically when a customer\u0027s basket meets the qualifying criteria defined in the active campaign",
+      "iconUrl": "/iconify/mdi/tag-multiple.svg",
+      "id": "b6bf38fd-0b4e-4b11-aff4-b62597a996d3",
+      "attachments": null
+    }
+  ],
+  "triggers": [],
+  "datastores": [],
+  "color": "#000000",
+  "attachmentsContainer": "dl-attachments-98c1a391-98ed-4c51-b838-e26508a89672",
+  "iconUrl": null,
+  "template": null
+}
