@@ -3,71 +3,9 @@
   "domainStories": [
     {
       "domainStoryId": "1225c172-6d8e-496b-9cac-289049989096",
-      "commands": [
-        {
-          "domainLanguageId": "7c06e353-2adc-4084-9a32-5d0f80d910ce",
-          "commandId": "0a6d7b0f-4908-4318-b29b-72b8b52eac4e",
-          "commandName": "CreateCart"
-        },
-        {
-          "domainLanguageId": "7c06e353-2adc-4084-9a32-5d0f80d910ce",
-          "commandId": "c70add8c-051f-4ff0-8d54-9f54e55b153b",
-          "commandName": "AddCartItem"
-        },
-        {
-          "domainLanguageId": "7c06e353-2adc-4084-9a32-5d0f80d910ce",
-          "commandId": "4a8473f6-2da0-42ab-99ed-2dafc66119a7",
-          "commandName": "ChangeCartItemQuantity"
-        },
-        {
-          "domainLanguageId": "7c06e353-2adc-4084-9a32-5d0f80d910ce",
-          "commandId": "412dd18e-ea05-4abf-8ba8-0afb288d8c3e",
-          "commandName": "RemoveCartItem"
-        },
-        {
-          "domainLanguageId": "7c06e353-2adc-4084-9a32-5d0f80d910ce",
-          "commandId": "56cb61a2-5fcf-40a5-9cfd-c0f5cb4df24d",
-          "commandName": "AbandonCart"
-        },
-        {
-          "domainLanguageId": "7c06e353-2adc-4084-9a32-5d0f80d910ce",
-          "commandId": "2ff1fd2c-718b-472a-892d-d6adc5b178e7",
-          "commandName": "ViewCart"
-        },
-        {
-          "domainLanguageId": "7c06e353-2adc-4084-9a32-5d0f80d910ce",
-          "commandId": "84a86e15-0b99-4892-b62f-1aa2648a7703",
-          "commandName": "ListIdleCarts"
-        }
-      ],
+      "commands": [],
       "policies": [],
-      "events": [
-        {
-          "domainLanguageId": "7c06e353-2adc-4084-9a32-5d0f80d910ce",
-          "eventId": "4fcf7280-8a9c-4e17-bf1c-c5304aa58aaa",
-          "eventName": "CartCreated"
-        },
-        {
-          "domainLanguageId": "7c06e353-2adc-4084-9a32-5d0f80d910ce",
-          "eventId": "9dac36f2-c561-4c76-9b1f-450b837b68dd",
-          "eventName": "CartItemAdded"
-        },
-        {
-          "domainLanguageId": "7c06e353-2adc-4084-9a32-5d0f80d910ce",
-          "eventId": "7a6d129b-3510-454d-ace6-92a5e54f80cd",
-          "eventName": "CartItemQuantityChanged"
-        },
-        {
-          "domainLanguageId": "7c06e353-2adc-4084-9a32-5d0f80d910ce",
-          "eventId": "0f75d116-9acc-4bc9-8176-7f7fb7eabb17",
-          "eventName": "CartItemRemoved"
-        },
-        {
-          "domainLanguageId": "7c06e353-2adc-4084-9a32-5d0f80d910ce",
-          "eventId": "ae6770c5-f955-46e6-b8e7-53c33eafb407",
-          "eventName": "CartAbandoned"
-        }
-      ]
+      "events": []
     }
   ],
   "endpoints": []

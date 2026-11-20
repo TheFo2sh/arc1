@@ -2,7 +2,7 @@
   "name": "Shop and fill a cart",
   "description": "",
   "creationTime": "2026-11-20T07:33:48.512473Z",
-  "lastModifiedTime": "2026-11-20T07:33:49.361645Z",
+  "lastModifiedTime": "2026-11-20T07:33:53.473742Z",
   "projectId": "c8e4599f-f508-455c-8bf2-2248b4d6884d",
   "story": {
     "domain": {
@@ -958,7 +958,7 @@
         "version": null,
         "domainLanguageId": "7c06e353-2adc-4084-9a32-5d0f80d910ce",
         "itemId": "0a6d7b0f-4908-4318-b29b-72b8b52eac4e",
-        "systemActorId": "83ba0e9b-1470-4766-9d78-b228fc9b78f4"
+        "systemActorId": null
       },
       {
         "type": "eventModeling:event",
@@ -978,7 +978,7 @@
         "version": null,
         "domainLanguageId": "7c06e353-2adc-4084-9a32-5d0f80d910ce",
         "itemId": "4fcf7280-8a9c-4e17-bf1c-c5304aa58aaa",
-        "systemActorId": "83ba0e9b-1470-4766-9d78-b228fc9b78f4"
+        "systemActorId": null
       },
       {
         "type": "eventModeling:command",
@@ -998,7 +998,7 @@
         "version": null,
         "domainLanguageId": "7c06e353-2adc-4084-9a32-5d0f80d910ce",
         "itemId": "c70add8c-051f-4ff0-8d54-9f54e55b153b",
-        "systemActorId": "83ba0e9b-1470-4766-9d78-b228fc9b78f4"
+        "systemActorId": null
       },
       {
         "type": "eventModeling:event",
@@ -1018,7 +1018,7 @@
         "version": null,
         "domainLanguageId": "7c06e353-2adc-4084-9a32-5d0f80d910ce",
         "itemId": "9dac36f2-c561-4c76-9b1f-450b837b68dd",
-        "systemActorId": "83ba0e9b-1470-4766-9d78-b228fc9b78f4"
+        "systemActorId": null
       },
       {
         "type": "eventModeling:command",
@@ -1038,7 +1038,7 @@
         "version": null,
         "domainLanguageId": "73276a57-d401-40b1-adc3-8e6306e5bb83",
         "itemId": "51a18650-4d06-4c10-be53-a1945a2082cf",
-        "systemActorId": "99a2cdbb-6c1b-4cf0-ae2f-3d6f0ac774b5"
+        "systemActorId": null
       },
       {
         "type": "eventModeling:event",
@@ -1058,7 +1058,7 @@
         "version": null,
         "domainLanguageId": "73276a57-d401-40b1-adc3-8e6306e5bb83",
         "itemId": "fcdbe63d-2966-4617-80f4-b75897c32ac5",
-        "systemActorId": "99a2cdbb-6c1b-4cf0-ae2f-3d6f0ac774b5"
+        "systemActorId": null
       },
       {
         "type": "eventModeling:command",
@@ -1078,7 +1078,7 @@
         "version": null,
         "domainLanguageId": "7c06e353-2adc-4084-9a32-5d0f80d910ce",
         "itemId": "4a8473f6-2da0-42ab-99ed-2dafc66119a7",
-        "systemActorId": "83ba0e9b-1470-4766-9d78-b228fc9b78f4"
+        "systemActorId": null
       },
       {
         "type": "eventModeling:event",
@@ -1098,7 +1098,7 @@
         "version": null,
         "domainLanguageId": "7c06e353-2adc-4084-9a32-5d0f80d910ce",
         "itemId": "7a6d129b-3510-454d-ace6-92a5e54f80cd",
-        "systemActorId": "83ba0e9b-1470-4766-9d78-b228fc9b78f4"
+        "systemActorId": null
       },
       {
         "type": "eventModeling:command",
@@ -1118,7 +1118,7 @@
         "version": null,
         "domainLanguageId": "7c06e353-2adc-4084-9a32-5d0f80d910ce",
         "itemId": "412dd18e-ea05-4abf-8ba8-0afb288d8c3e",
-        "systemActorId": "83ba0e9b-1470-4766-9d78-b228fc9b78f4"
+        "systemActorId": null
       },
       {
         "type": "eventModeling:event",
@@ -1138,7 +1138,7 @@
         "version": null,
         "domainLanguageId": "7c06e353-2adc-4084-9a32-5d0f80d910ce",
         "itemId": "0f75d116-9acc-4bc9-8176-7f7fb7eabb17",
-        "systemActorId": "83ba0e9b-1470-4766-9d78-b228fc9b78f4"
+        "systemActorId": null
       },
       {
         "type": "eventModeling:command",
@@ -1158,7 +1158,7 @@
         "version": null,
         "domainLanguageId": "7c06e353-2adc-4084-9a32-5d0f80d910ce",
         "itemId": "56cb61a2-5fcf-40a5-9cfd-c0f5cb4df24d",
-        "systemActorId": "83ba0e9b-1470-4766-9d78-b228fc9b78f4"
+        "systemActorId": null
       },
       {
         "type": "eventModeling:event",
@@ -1178,7 +1178,7 @@
         "version": null,
         "domainLanguageId": "7c06e353-2adc-4084-9a32-5d0f80d910ce",
         "itemId": "ae6770c5-f955-46e6-b8e7-53c33eafb407",
-        "systemActorId": "83ba0e9b-1470-4766-9d78-b228fc9b78f4"
+        "systemActorId": null
       },
       {
         "type": "eventModeling:command",
@@ -1198,7 +1198,7 @@
         "version": null,
         "domainLanguageId": "73276a57-d401-40b1-adc3-8e6306e5bb83",
         "itemId": "93d9093e-6b77-4427-8791-b8ca8ebb2526",
-        "systemActorId": "99a2cdbb-6c1b-4cf0-ae2f-3d6f0ac774b5"
+        "systemActorId": null
       },
       {
         "type": "eventModeling:event",
@@ -1218,7 +1218,7 @@
         "version": null,
         "domainLanguageId": "73276a57-d401-40b1-adc3-8e6306e5bb83",
         "itemId": "d8a4bebb-ea68-433e-a5b7-5f9cde27c97c",
-        "systemActorId": "99a2cdbb-6c1b-4cf0-ae2f-3d6f0ac774b5"
+        "systemActorId": null
       },
       {
         "type": "eventModeling:command",
@@ -1238,7 +1238,7 @@
         "version": null,
         "domainLanguageId": "7581b490-6ba6-405e-8c34-12748f15f130",
         "itemId": "62f9e8a8-ac8f-46a8-b85f-878aa47e6f56",
-        "systemActorId": "600ced7f-3b42-48e0-a455-a4d1f594355f"
+        "systemActorId": null
       },
       {
         "type": "eventModeling:event",
@@ -1258,7 +1258,7 @@
         "version": null,
         "domainLanguageId": "7581b490-6ba6-405e-8c34-12748f15f130",
         "itemId": "28b8c2af-d1f5-446a-833e-f9ceef98e2ce",
-        "systemActorId": "600ced7f-3b42-48e0-a455-a4d1f594355f"
+        "systemActorId": null
       },
       {
         "type": "eventModeling:event",
@@ -1278,7 +1278,7 @@
         "version": null,
         "domainLanguageId": "7581b490-6ba6-405e-8c34-12748f15f130",
         "itemId": "2ccb7b86-1f5c-44bc-8986-0ac84a51e2fe",
-        "systemActorId": "600ced7f-3b42-48e0-a455-a4d1f594355f"
+        "systemActorId": null
       },
       {
         "type": "eventModeling:event",
@@ -1298,7 +1298,7 @@
         "version": null,
         "domainLanguageId": "7581b490-6ba6-405e-8c34-12748f15f130",
         "itemId": "71778b74-0088-4d78-ad05-bdccc7547a94",
-        "systemActorId": "600ced7f-3b42-48e0-a455-a4d1f594355f"
+        "systemActorId": null
       },
       {
         "type": "eventModeling:command",
@@ -1318,7 +1318,7 @@
         "version": null,
         "domainLanguageId": "7c06e353-2adc-4084-9a32-5d0f80d910ce",
         "itemId": "2ff1fd2c-718b-472a-892d-d6adc5b178e7",
-        "systemActorId": "83ba0e9b-1470-4766-9d78-b228fc9b78f4"
+        "systemActorId": null
       },
       {
         "type": "eventModeling:command",
@@ -1338,7 +1338,7 @@
         "version": null,
         "domainLanguageId": "7c06e353-2adc-4084-9a32-5d0f80d910ce",
         "itemId": "84a86e15-0b99-4892-b62f-1aa2648a7703",
-        "systemActorId": "83ba0e9b-1470-4766-9d78-b228fc9b78f4"
+        "systemActorId": null
       },
       {
         "type": "eventModeling:triggerFrontendTrigger",
@@ -1358,7 +1358,7 @@
         "version": null,
         "domainLanguageId": null,
         "itemId": null,
-        "systemActorId": "600ced7f-3b42-48e0-a455-a4d1f594355f"
+        "systemActorId": null
       },
       {
         "type": "eventModeling:triggerFrontendTrigger",
@@ -1378,7 +1378,7 @@
         "version": null,
         "domainLanguageId": null,
         "itemId": null,
-        "systemActorId": "83ba0e9b-1470-4766-9d78-b228fc9b78f4"
+        "systemActorId": null
       },
       {
         "type": "eventModeling:triggerFrontendTrigger",
@@ -1398,7 +1398,7 @@
         "version": null,
         "domainLanguageId": null,
         "itemId": null,
-        "systemActorId": "83ba0e9b-1470-4766-9d78-b228fc9b78f4"
+        "systemActorId": null
       },
       {
         "type": "eventModeling:policy",
@@ -1418,7 +1418,7 @@
         "version": null,
         "domainLanguageId": "73276a57-d401-40b1-adc3-8e6306e5bb83",
         "itemId": "eb1ea04a-49c7-442b-a017-0e8fe23390b7",
-        "systemActorId": "99a2cdbb-6c1b-4cf0-ae2f-3d6f0ac774b5"
+        "systemActorId": null
       },
       {
         "type": "eventModeling:triggerFrontendTrigger",
@@ -1438,7 +1438,7 @@
         "version": null,
         "domainLanguageId": null,
         "itemId": null,
-        "systemActorId": "83ba0e9b-1470-4766-9d78-b228fc9b78f4"
+        "systemActorId": null
       },
       {
         "type": "eventModeling:triggerFrontendTrigger",
@@ -1458,7 +1458,7 @@
         "version": null,
         "domainLanguageId": null,
         "itemId": null,
-        "systemActorId": "83ba0e9b-1470-4766-9d78-b228fc9b78f4"
+        "systemActorId": null
       },
       {
         "type": "eventModeling:triggerTimeTrigger",
@@ -1478,7 +1478,7 @@
         "version": null,
         "domainLanguageId": "7c06e353-2adc-4084-9a32-5d0f80d910ce",
         "itemId": "4c8d406f-ad44-422e-89a7-4332ff6c4c64",
-        "systemActorId": "83ba0e9b-1470-4766-9d78-b228fc9b78f4"
+        "systemActorId": null
       },
       {
         "type": "eventModeling:policy",
@@ -1498,7 +1498,7 @@
         "version": null,
         "domainLanguageId": "73276a57-d401-40b1-adc3-8e6306e5bb83",
         "itemId": "b87ad351-2d5e-4d8b-b52e-2a026aec9cf4",
-        "systemActorId": "99a2cdbb-6c1b-4cf0-ae2f-3d6f0ac774b5"
+        "systemActorId": null
       },
       {
         "type": "eventModeling:triggerFrontendTrigger",
@@ -1518,7 +1518,7 @@
         "version": null,
         "domainLanguageId": null,
         "itemId": null,
-        "systemActorId": "83ba0e9b-1470-4766-9d78-b228fc9b78f4"
+        "systemActorId": null
       },
       {
         "type": "eventModeling:humanActor",
@@ -1542,9 +1542,9 @@
       },
       {
         "type": "eventModeling:edge",
-        "name": null,
+        "name": "relation",
         "id": "e1350c2c-3b49-4d9f-a9b8-bbf75338faa7",
-        "number": null,
+        "number": 0,
         "waypoints": null,
         "source": "7166d628-14e7-4fbd-87e6-3f7603b6884e",
         "target": "271c1599-56d8-43ab-a229-f326eeeb1606",
@@ -1562,9 +1562,9 @@
       },
       {
         "type": "eventModeling:edge",
-        "name": null,
+        "name": "relation",
         "id": "75dad6c8-d542-4f07-8adc-3acbc9b9b49c",
-        "number": null,
+        "number": 0,
         "waypoints": null,
         "source": "c46b7756-24d4-4cc8-9d6f-dd6a93dc3ed8",
         "target": "271c1599-56d8-43ab-a229-f326eeeb1606",
@@ -1582,9 +1582,9 @@
       },
       {
         "type": "eventModeling:edge",
-        "name": null,
+        "name": "relation",
         "id": "e6f8b962-c3ec-4b67-a1c9-d3cb89d8329c",
-        "number": null,
+        "number": 0,
         "waypoints": null,
         "source": "2f56dba7-08b9-4ac0-a493-58d3e1ff5323",
         "target": "271c1599-56d8-43ab-a229-f326eeeb1606",
@@ -1602,9 +1602,9 @@
       },
       {
         "type": "eventModeling:edge",
-        "name": null,
+        "name": "relation",
         "id": "618e9449-761e-4d41-a965-4058f33340cc",
-        "number": null,
+        "number": 0,
         "waypoints": null,
         "source": "f78d6023-6c7d-4ead-ba17-5c55ab50e582",
         "target": "ae3e91f9-4663-4d21-bcc5-143f98b20547",
@@ -1622,9 +1622,9 @@
       },
       {
         "type": "eventModeling:edge",
-        "name": null,
+        "name": "relation",
         "id": "217c4e10-0b82-4d3f-bbe9-5f64d48833a6",
-        "number": null,
+        "number": 0,
         "waypoints": null,
         "source": "c4f1039f-50a8-45fd-b04f-e00efdc1b5f4",
         "target": "ae3e91f9-4663-4d21-bcc5-143f98b20547",
@@ -1642,9 +1642,9 @@
       },
       {
         "type": "eventModeling:edge",
-        "name": null,
+        "name": "relation",
         "id": "2feacf2a-07f3-43ad-b1d9-32dc242b0348",
-        "number": null,
+        "number": 0,
         "waypoints": null,
         "source": "c1294d5b-a922-4c94-ab4f-896c58c6f022",
         "target": "ae3e91f9-4663-4d21-bcc5-143f98b20547",
@@ -1662,9 +1662,9 @@
       },
       {
         "type": "eventModeling:edge",
-        "name": null,
+        "name": "relation",
         "id": "35cb1424-5935-4cec-9ad6-be911b1db51d",
-        "number": null,
+        "number": 0,
         "waypoints": null,
         "source": "34a99430-0d05-4cb3-8459-7f26b3dad523",
         "target": "ae3e91f9-4663-4d21-bcc5-143f98b20547",
@@ -1682,9 +1682,9 @@
       },
       {
         "type": "eventModeling:edge",
-        "name": null,
+        "name": "relation",
         "id": "a191afe8-edfb-46b8-a9a3-2be46539a4b3",
-        "number": null,
+        "number": 0,
         "waypoints": null,
         "source": "f60e0c0a-535c-4aee-b795-c381ac0cac82",
         "target": "ae3e91f9-4663-4d21-bcc5-143f98b20547",
@@ -1702,9 +1702,9 @@
       },
       {
         "type": "eventModeling:edge",
-        "name": null,
+        "name": "relation",
         "id": "955d2122-6315-4e6a-ae5e-69372f4db5ba",
-        "number": null,
+        "number": 0,
         "waypoints": null,
         "source": "f78d6023-6c7d-4ead-ba17-5c55ab50e582",
         "target": "3d8b087e-045e-4406-9336-c37440c35f92",
@@ -1722,9 +1722,9 @@
       },
       {
         "type": "eventModeling:edge",
-        "name": null,
+        "name": "relation",
         "id": "e94489e7-660f-4089-b85d-9d1762de80b2",
-        "number": null,
+        "number": 0,
         "waypoints": null,
         "source": "c4f1039f-50a8-45fd-b04f-e00efdc1b5f4",
         "target": "3d8b087e-045e-4406-9336-c37440c35f92",
@@ -1742,9 +1742,9 @@
       },
       {
         "type": "eventModeling:edge",
-        "name": null,
+        "name": "relation",
         "id": "52d4b0a1-3722-43a9-84c9-aadefb105525",
-        "number": null,
+        "number": 0,
         "waypoints": null,
         "source": "c1294d5b-a922-4c94-ab4f-896c58c6f022",
         "target": "3d8b087e-045e-4406-9336-c37440c35f92",
@@ -1762,9 +1762,9 @@
       },
       {
         "type": "eventModeling:edge",
-        "name": null,
+        "name": "relation",
         "id": "b749d372-f7b1-428e-941e-02c88fe624bb",
-        "number": null,
+        "number": 0,
         "waypoints": null,
         "source": "34a99430-0d05-4cb3-8459-7f26b3dad523",
         "target": "3d8b087e-045e-4406-9336-c37440c35f92",
@@ -1782,9 +1782,9 @@
       },
       {
         "type": "eventModeling:edge",
-        "name": null,
+        "name": "relation",
         "id": "b85a4617-0437-4d1f-8681-aeeb7e1612c0",
-        "number": null,
+        "number": 0,
         "waypoints": null,
         "source": "f60e0c0a-535c-4aee-b795-c381ac0cac82",
         "target": "3d8b087e-045e-4406-9336-c37440c35f92",
@@ -1802,9 +1802,9 @@
       },
       {
         "type": "eventModeling:edge",
-        "name": null,
+        "name": "relation",
         "id": "209fe220-ff0f-4eb2-8a74-ac4097ec9201",
-        "number": null,
+        "number": 0,
         "waypoints": null,
         "source": "b4f4c60d-39b9-40d5-839d-af28ca19ddad",
         "target": "271c1599-56d8-43ab-a229-f326eeeb1606",
@@ -1822,9 +1822,9 @@
       },
       {
         "type": "eventModeling:edge",
-        "name": null,
+        "name": "relation",
         "id": "1c7ebff4-bf9e-4714-94bd-5b923144d13a",
-        "number": null,
+        "number": 0,
         "waypoints": null,
         "source": "10f41cd3-5d6d-4b4a-8e5d-d3364d40a839",
         "target": "f78d6023-6c7d-4ead-ba17-5c55ab50e582",
@@ -1842,9 +1842,9 @@
       },
       {
         "type": "eventModeling:edge",
-        "name": null,
+        "name": "relation",
         "id": "04afdad9-359b-4030-b217-2953c82aa943",
-        "number": null,
+        "number": 0,
         "waypoints": null,
         "source": "b21a2aae-81d2-41e0-938c-2302be26ba10",
         "target": "10f41cd3-5d6d-4b4a-8e5d-d3364d40a839",
@@ -1862,9 +1862,9 @@
       },
       {
         "type": "eventModeling:edge",
-        "name": null,
+        "name": "relation",
         "id": "255bedf4-3eca-4da4-a42a-c1c125f8564d",
-        "number": null,
+        "number": 0,
         "waypoints": null,
         "source": "a5b35755-4927-4d1c-9b83-20bfae2ef118",
         "target": "c4f1039f-50a8-45fd-b04f-e00efdc1b5f4",
@@ -1882,9 +1882,9 @@
       },
       {
         "type": "eventModeling:edge",
-        "name": null,
+        "name": "relation",
         "id": "ace2b150-6de2-4a66-9052-a402b582d65a",
-        "number": null,
+        "number": 0,
         "waypoints": null,
         "source": "5a2e5304-1f6a-4828-97b5-3082d9120f2c",
         "target": "a5b35755-4927-4d1c-9b83-20bfae2ef118",
@@ -1902,9 +1902,9 @@
       },
       {
         "type": "eventModeling:edge",
-        "name": null,
+        "name": "relation",
         "id": "062b1d58-bfcf-4ab2-995c-4a5c4e2bc6ef",
-        "number": null,
+        "number": 0,
         "waypoints": null,
         "source": "fb0341af-47eb-4ae9-9298-c8b5c646287f",
         "target": "78fe3c7e-0b15-4d15-9d51-fc2d5e5dac29",
@@ -1922,9 +1922,9 @@
       },
       {
         "type": "eventModeling:edge",
-        "name": null,
+        "name": "relation",
         "id": "c15f9b24-d155-4077-b9c2-c096071ba8e6",
-        "number": null,
+        "number": 0,
         "waypoints": null,
         "source": "c4f1039f-50a8-45fd-b04f-e00efdc1b5f4",
         "target": "269fa1e0-1c89-459a-b2f1-5160eb6243ec",
@@ -1942,9 +1942,9 @@
       },
       {
         "type": "eventModeling:edge",
-        "name": null,
+        "name": "relation",
         "id": "a3aeb359-4d75-401e-abb8-534fa6c1e1a3",
-        "number": null,
+        "number": 0,
         "waypoints": null,
         "source": "269fa1e0-1c89-459a-b2f1-5160eb6243ec",
         "target": "fb0341af-47eb-4ae9-9298-c8b5c646287f",
@@ -1962,9 +1962,9 @@
       },
       {
         "type": "eventModeling:edge",
-        "name": null,
+        "name": "relation",
         "id": "26afb03f-c4a4-46e7-a8dd-ca1ece04e630",
-        "number": null,
+        "number": 0,
         "waypoints": null,
         "source": "8bb352b1-2cee-4f01-8b68-b3881c2ffc45",
         "target": "c1294d5b-a922-4c94-ab4f-896c58c6f022",
@@ -1982,9 +1982,9 @@
       },
       {
         "type": "eventModeling:edge",
-        "name": null,
+        "name": "relation",
         "id": "33e8694d-c8c3-4e3b-aa72-e0b9ded51eb5",
-        "number": null,
+        "number": 0,
         "waypoints": null,
         "source": "5e3e352b-c7d5-460e-a2c1-fb5fffb242a0",
         "target": "8bb352b1-2cee-4f01-8b68-b3881c2ffc45",
@@ -2002,9 +2002,9 @@
       },
       {
         "type": "eventModeling:edge",
-        "name": null,
+        "name": "relation",
         "id": "1f675618-7c66-4ef5-8591-c8f8bd6d035e",
-        "number": null,
+        "number": 0,
         "waypoints": null,
         "source": "dffee03f-38f4-4761-9646-0b3a6c942be6",
         "target": "34a99430-0d05-4cb3-8459-7f26b3dad523",
@@ -2022,9 +2022,9 @@
       },
       {
         "type": "eventModeling:edge",
-        "name": null,
+        "name": "relation",
         "id": "8498cdc3-609d-424f-9a88-623ed044f4ec",
-        "number": null,
+        "number": 0,
         "waypoints": null,
         "source": "ae98d96d-c83a-4e74-9cc5-df4b9883a7aa",
         "target": "dffee03f-38f4-4761-9646-0b3a6c942be6",
@@ -2042,9 +2042,9 @@
       },
       {
         "type": "eventModeling:edge",
-        "name": null,
+        "name": "relation",
         "id": "9b3c8994-ffdf-411f-930b-6453567a6179",
-        "number": null,
+        "number": 0,
         "waypoints": null,
         "source": "a3ccb21c-28df-4ff7-8882-1fe530343e2c",
         "target": "f60e0c0a-535c-4aee-b795-c381ac0cac82",
@@ -2062,9 +2062,9 @@
       },
       {
         "type": "eventModeling:edge",
-        "name": null,
+        "name": "relation",
         "id": "51b64975-b2a3-422f-ab45-6ecbc62939cd",
-        "number": null,
+        "number": 0,
         "waypoints": null,
         "source": "f3fa0864-c383-4b66-a5b8-300f450ba569",
         "target": "a3ccb21c-28df-4ff7-8882-1fe530343e2c",
@@ -2082,9 +2082,9 @@
       },
       {
         "type": "eventModeling:edge",
-        "name": null,
+        "name": "relation",
         "id": "6a5bab4d-6b9b-49c9-b4a1-948a04180ac8",
-        "number": null,
+        "number": 0,
         "waypoints": null,
         "source": "f3fa0864-c383-4b66-a5b8-300f450ba569",
         "target": "3d8b087e-045e-4406-9336-c37440c35f92",
@@ -2102,9 +2102,9 @@
       },
       {
         "type": "eventModeling:edge",
-        "name": null,
+        "name": "relation",
         "id": "0b0e6cc4-3b01-4493-9ffd-0632db3252e0",
-        "number": null,
+        "number": 0,
         "waypoints": null,
         "source": "76c44f49-c2cd-4013-8735-92bbfc4d3fd2",
         "target": "0b41325e-c720-487b-bf8a-e3cd6aa89384",
@@ -2122,9 +2122,9 @@
       },
       {
         "type": "eventModeling:edge",
-        "name": null,
+        "name": "relation",
         "id": "cf1093c0-06b8-4677-be7d-5a46fc79c5e0",
-        "number": null,
+        "number": 0,
         "waypoints": null,
         "source": "f60e0c0a-535c-4aee-b795-c381ac0cac82",
         "target": "b8a7f706-2ffb-42e8-aa33-4ef250df27f7",
@@ -2142,9 +2142,9 @@
       },
       {
         "type": "eventModeling:edge",
-        "name": null,
+        "name": "relation",
         "id": "362bce8d-d874-446a-bb5a-1d4196230d11",
-        "number": null,
+        "number": 0,
         "waypoints": null,
         "source": "b8a7f706-2ffb-42e8-aa33-4ef250df27f7",
         "target": "76c44f49-c2cd-4013-8735-92bbfc4d3fd2",
@@ -2162,9 +2162,9 @@
       },
       {
         "type": "eventModeling:edge",
-        "name": null,
+        "name": "relation",
         "id": "a9b40329-cc17-4221-8570-94353a4efd11",
-        "number": null,
+        "number": 0,
         "waypoints": null,
         "source": "d4813d16-686a-46f5-b2c7-7d2774c08f57",
         "target": "ae3e91f9-4663-4d21-bcc5-143f98b20547",
@@ -2182,9 +2182,9 @@
       },
       {
         "type": "eventModeling:edge",
-        "name": null,
+        "name": "relation",
         "id": "5adb46d1-798a-4fb0-a612-f7b4b5b4b252",
-        "number": null,
+        "number": 0,
         "waypoints": null,
         "source": "4d338f27-716e-4265-8d25-42bf67ffaf44",
         "target": "b4f4c60d-39b9-40d5-839d-af28ca19ddad",
@@ -2202,9 +2202,9 @@
       },
       {
         "type": "eventModeling:edge",
-        "name": null,
+        "name": "relation",
         "id": "03df6c04-b280-45e6-a617-cafc9d36e911",
-        "number": null,
+        "number": 0,
         "waypoints": null,
         "source": "4d338f27-716e-4265-8d25-42bf67ffaf44",
         "target": "b21a2aae-81d2-41e0-938c-2302be26ba10",
@@ -2222,9 +2222,9 @@
       },
       {
         "type": "eventModeling:edge",
-        "name": null,
+        "name": "relation",
         "id": "41bcd458-b3a1-4952-be2f-2e06bea018af",
-        "number": null,
+        "number": 0,
         "waypoints": null,
         "source": "4d338f27-716e-4265-8d25-42bf67ffaf44",
         "target": "5a2e5304-1f6a-4828-97b5-3082d9120f2c",
@@ -2242,9 +2242,9 @@
       },
       {
         "type": "eventModeling:edge",
-        "name": null,
+        "name": "relation",
         "id": "dfd15969-95a9-4a22-aa3e-166d9786593b",
-        "number": null,
+        "number": 0,
         "waypoints": null,
         "source": "4d338f27-716e-4265-8d25-42bf67ffaf44",
         "target": "5e3e352b-c7d5-460e-a2c1-fb5fffb242a0",
@@ -2262,9 +2262,9 @@
       },
       {
         "type": "eventModeling:edge",
-        "name": null,
+        "name": "relation",
         "id": "228e0d82-8db7-46a3-8c5e-f8af746c2e89",
-        "number": null,
+        "number": 0,
         "waypoints": null,
         "source": "4d338f27-716e-4265-8d25-42bf67ffaf44",
         "target": "ae98d96d-c83a-4e74-9cc5-df4b9883a7aa",
@@ -2282,9 +2282,9 @@
       },
       {
         "type": "eventModeling:edge",
-        "name": null,
+        "name": "relation",
         "id": "c4caec1e-48f3-4eda-a5d7-98714bac2789",
-        "number": null,
+        "number": 0,
         "waypoints": null,
         "source": "4d338f27-716e-4265-8d25-42bf67ffaf44",
         "target": "d4813d16-686a-46f5-b2c7-7d2774c08f57",
@@ -2311,9 +2311,5 @@
     "commitSha": "f512b0bf73a8a623682a1460e0fb5d1f2dc48138",
     "importedAt": "2026-11-20T07:33:48.492Z"
   },
-  "pendingLayout": {
-    "domainStory": false,
-    "eventModel": true,
-    "any": true
-  }
+  "pendingLayout": null
 }
